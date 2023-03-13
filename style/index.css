@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* header strats here */
+header{
+    background-image: url('../images/banner/banner1.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: right;
+ height: 700px;
+}
+.description{
+    width: 400px;
+    float: right;
+    margin-right: 200px;
+    padding-top: 300px;
+    
+}
+.desc-p{
+    font-size: 18px;
+}
+.btn{
+    margin-top: 20px;
+    padding: 15px 20px;
+    background: #fb5200;
+    border: none;
+    color: wheat;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: gray;
+    color: #63f800;
+}
+.title{
+    font-size: 45px;
+}
+/* header ends hare */
+/* My-failures section starts here */
+
+
+.titles{
+   
+    width: 480px;
+    margin-left: 180px;
+    display: inline-block;
+
+}
+.My-failures{
+    justify-content: space-between;
+}
+.image{
+display: inline-block;
+background-color: pink;
+border-radius: 50%;
+}
+i{
+    background-color: #63f800;
+    border-radius: 50%;
+}
+.imgs{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    margin: 0 auto;
+    width: 80px;
+    margin-left: 380px;
+    align-items: center;
+}
+.imgs{
+margin-left: 40px;
+}
+.imgs:first-child{
+    margin-left: 0;
+}
+
+
+.title-e{
+    font-size: 25px;
+ text-align: center;
+ margin-left: 45px;
+}
+
+.watch{
+    background-image: url(../images/watch.png);
+background-size: 100% 100%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.image-container {
+    position: relative;
+  }
+  
+  .image-text {
+    position: absolute;
+    top: 50%;
+   left: 15%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    
+  }
+  
+  .image-text h2 {
+    margin: 0;
+    font-size: 35px;
+  }
+.btn-2{
+    background-color: white;
+    padding: 15px;
+    border: none;
+    color: #fb5200;
+    margin-left: 40px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+/* My-failures section ends here */
+/* footer starts here */
+footer{
+    background-color: black;
+    height: 350px;
+    color: white;
+
+}
+.mac-w{
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.one{
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.two{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.margin{
+    margin-bottom: 20px;
+    
+}
+
+.btuuto{
+    color: #fb5200;
+    background-color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top:  0;
+    font-weight: 700;
+}
+.inp{
+    width: 250px;
+    border-radius: 5px;
+    border:1px solid wheat;
+background-color: black;
+color: aliceblue;
+    height: 40px;
+}
+.f{
+    font-size: 35px;
+    font-weight: 800;
+}
+/* footer ends here */
